@@ -1,0 +1,147 @@
+header {
+    margin: 0 16px;
+}
+
+h5, a {
+    display: flex;
+    text-decoration: none;
+}
+
+.carousel-item a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 145px;
+}
+
+.button {
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+.button:hover {
+    border: #ffffff;
+    margin: 3px 3px;
+}
+  
+h2 {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.header {
+    background-color: #1D1D1D;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header .navbar img {
+    height: 40px;
+    position: absolute;
+    left: 0;
+}
+
+.nav ul li {
+    list-style: none;
+}
+.nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.nav li a:hover {
+    color: grey;
+}
+
+.nav-item .nav-link.active {
+    background-color: gray;
+}
+
+.carousel-item {
+    background-color: #000000;
+}
+
+.carousel .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.carousel{
+    background-color: #0f0f0e;
+}
+
+.overlay-image {
+    opacity: 0.7;
+}
+
+h3 {
+    text-align: center;
+    margin: 35px 0;
+    color: #fff;
+}
+
+.row {
+    background-color: #0f0f0e;
+}
+
+.card{
+    background-color: #0f0f0e;
+    border: none;
+    margin: 32px 0;
+} 
+
+body {
+    background-color: #0f0f0e;
+}
+
+.card .button {
+    width: 120px;
+    align-self: center;
+}
+
+@media screen and (min-width: 1921px) {
+    .container {
+        max-width: 1920px;
+        max-height: 1080px;
+
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .container {
+        max-width: 1590px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .nav li a {
+        font-size: 12px;
+    }
+
+    .carousel-item a, h5 {
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    .carousel-item .button {
+        width: 100px;
+    }
+    
+}
+
